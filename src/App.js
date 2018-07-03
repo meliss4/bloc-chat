@@ -20,6 +20,7 @@ firebase.initializeApp(config);
 class App extends Component {
   render() {
     return ( 
+      //I DONT KNOW WHERE I GOT THIS... I GOOGLED SOMETHING AND IT WORKED, BUT I HAVE NO CLUE WHAT THIS MEANS OR IF ITS RIGHT. 
       <RoomList firebase = {firebase} />
     );
   }
